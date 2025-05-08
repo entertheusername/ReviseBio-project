@@ -1,0 +1,102 @@
+/* User Management - Start */
+.user-management-container {
+  background-color: #83D475;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  box-sizing: content-box;
+}
+
+.user-management-container h2 {
+  margin-bottom: 20px;
+  color: #473a33;
+  font-weight: 900;
+  position: absolute;
+}
+
+.username-container {
+  display: flex;
+  flex-direction: column; /* Stack users vertically */
+  justify-content: flex-start;
+  width: 100%;
+  max-height: 600px; /* Fixed height for the scrollable area */
+  overflow-y: auto; /* Makes the container scrollable */
+  padding-right: 10px; /* To prevent the scrollbar from overlapping content */
+}
+
+.user-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Space between user rows */
+}
+
+.user-info {
+  width: 100%;
+  height: 50px;
+  background-color: #2EB62C;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: black 1px solid;
+}
+
+.user-actions {
+  display: flex;
+  justify-content: right;
+  margin-left: auto;
+}
+
+.user-actions button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.role-dropdown {
+  padding: 8px;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  width: 40%;
+  margin-left: 60%;
+}
+
+.search-bar input {
+  border: #060000 solid 1px;
+  padding: 10px;
+  margin-left: 20%;
+  width: 100%;
+  background-color: #C5E8B7;
+}
