@@ -1,0 +1,27 @@
+<!-- Shim Yong Lin TP076209 -->
+<!--Import JS-->
+<head>
+    <script src="../sidebar.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+</head>
+
+<!-- Header -->
+<header>
+    <a href="../admin/admin-web-analytic.php"><img src="../imgs/ReviseBio.png" width="auto" height="80" alt="ReviseBio Logo"></a>
+    <div class="nav-right">
+        <button onclick="location.href='../admin/admin-web-analytic.php';">Website Analytics</button>
+        <button onclick="location.href='../admin/admin-user-manage.php';">User Management</button>
+        <button onclick="location.href='../admin/admin-content-manage.php';">Content
+            Management</button>
+        <button onclick="showPopup('popuplogout')">Log Out</button>
+    </div>
+</header>
+
+<!-- Logout -->
+<div id="popuplogout" class="general-popup">
+    <div class="general-popup-content">
+        <p>Are you sure you want to logout?!</p>
+        <button onclick="window.location.href='../logout.php';">Yes</button>
+        <button id="closePopup" onclick="closePopup('popuplogout')">No</button>
+    </div>
+</div>
