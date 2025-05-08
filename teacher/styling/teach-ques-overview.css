@@ -1,0 +1,47 @@
+  /*question check page start===============================================================*/
+  .containerchecks {
+    width: 80%;
+    border: 1px solid #444;
+    margin: 3%;
+    margin-left: 10%;
+  }
+  
+  .overview {
+    padding: 15px;
+    text-align: center;
+    background-color:rgba(69, 219, 176, 0.74);
+    border-bottom: 1px solid #444;
+  }
+  
+  .questioncheck {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    cursor: pointer;
+    background-color: rgba(13, 123, 107, 0.826);
+  }
+  
+  .buttonscheck {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%; 
+  }
+  
+  .back-btn,
+  .publish-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+  }
+  
+  .back-btn:hover,
+  .publish-btn:hover {
+    background-color: #555;
+  }
