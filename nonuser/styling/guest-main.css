@@ -1,0 +1,175 @@
+/* Guest page styles */
+.wlc-gst {
+    background-color: #b0e892;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .wlc-gst h1 {
+    margin: 0;
+  
+  }
+  
+  .gst-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #009933;
+    color: #cae4c5;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .wlc-gst button:hover,
+  .gst-button:hover {
+    background-color: #cae4c5;
+    color: #254222;
+  }
+  
+  .gst-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .gst-main div {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .gst-main h2 {
+    color: #434342;
+  }
+  
+  /* Slideshow container for guest*/
+  .slideshow-container {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .slides {
+    display: none
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Next & previous buttons for slideshow*/
+  .previousslide,
+  .nextslide {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .previousslide {
+    left: 0px;
+    margin-left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the right */
+  .nextslide {
+    right: -1px;
+    border-radius: 0 3px 3px 0;
+    border: black;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .previousslide:hover,
+  .nextslide:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+  
+    to {
+      opacity: 1
+    }
+  }
+  
+  /* On smaller screens, decrease text and image size */
+  @media only screen and (max-width: 300px) {
+    .previousslide,
+    .nextslide {
+      font-size: 11px
+    }
+
+    .slideshow-container img {
+      vertical-align: middle;
+      width: 80%;
+    }
+
+  }
+
+  .gst-signup {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b0e892;
+    padding: 20px;
+  }
+  
+  .gst-signup div {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .gst-signup h3 {
+    border: 1px solid #cae4c5;
+    padding: 15px;
+    background-color: #66cc00;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 758px) {
+    .gst-main {
+      flex-direction: column;
+    }
+
+    .gst-signup {
+      flex-direction: column;
+    }
+  
+    .gst-signup div {
+      margin-bottom: 20px;
+    }
+  }
