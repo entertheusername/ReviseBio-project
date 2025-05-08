@@ -1,0 +1,63 @@
+/* Restart Flashcard - Start */
+
+.flashcards-content {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.flashcard-finished {
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+    margin: 0 auto 30px auto;
+}
+
+.restart-container {
+    text-align: center;
+}
+
+.flashcard-button {
+    padding: 5px 10px;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    border: 1px solid #a7a7a7;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.flashcard-button:hover {
+    background-color: #45a049;
+}
+
+.restart-button {
+    padding: 15px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.restart-button:hover {
+    background-color: #45a049;
+}
+
+.flashcard-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

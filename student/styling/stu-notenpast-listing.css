@@ -1,0 +1,95 @@
+/* Student Notes Selection Page */
+
+.notes-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.notes-container div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+}
+
+.notes-section {
+    background-color: rgba(64, 128, 64, 0.8);
+    ;
+    border: 1px solid #2F4F2F;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    align-self: center;
+}
+
+@media (max-width: 758px) {
+    .notes-section {
+        width: 90%;
+        font-size: 10px;
+    }
+}
+
+.notes-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #E8F5E9;
+}
+
+.note-buttonstudy {
+    display: block;
+    background-color: #23c686;
+    color: #F0FFF0;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #2F4F2F;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+    height: auto;
+    width: 100%;
+}
+
+.note-buttonstudy:hover {
+    background-color: #a1e492;
+}
+
+.note-buttonstudy h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.note-buttonstudy p {
+    font-size: 0.9em;
+    color: #F5FFFA;
+    margin: 0;
+}
+
+.start-quiz {
+    margin: 20px;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 10%;
+    width: 40%;
+}
+
+.quiz-start-button {
+    width: 100%;
+    border: 1px solid #cfcfcf;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    background-color: #354535;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-start-button:hover {
+    background-color: #45a045;
+}
